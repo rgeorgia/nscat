@@ -14,6 +14,8 @@ Right now the only key words I am looking for is:
 keyWords := []string{"pw", "password", "dbpass", "_key", "_key_", "credential", "pat"}
 ```
 
+I am sure there is a much better way to filter out sensitive data.
+
 ```bash
 nscat .env
 
